@@ -14,7 +14,7 @@ class skype::prerequisites {
                  "libxext6:i386",
                  "libxss1:i386",
                  "libxv1:i386"]:
-			ensure => latest;
+			ensure => installed;
 	}
 
 	file {
