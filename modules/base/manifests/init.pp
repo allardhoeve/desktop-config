@@ -1,10 +1,10 @@
 
 class base {
 	stage {
-		"pre":
-			before => Stage[immediate];
-
 		"immediate":
+			before => Stage[pre];
+
+		"pre":
 			before => Stage[main];
 	}
 }
