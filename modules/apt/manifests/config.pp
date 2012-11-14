@@ -2,7 +2,7 @@
 class apt::config {
 	
 	File {
-		mode => 600,
+		mode => 644,
 		owner => "root",
 		group => "root"
 	}
