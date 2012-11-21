@@ -18,7 +18,7 @@ class skype::prerequisites {
 	}
 
 	file {
-		"/root/skype-debian_4.0.0.8-1_i386.deb":
+		"/var/cache/apt/archives/skype-debian_4.0.0.8-1_i386.deb":
 			ensure => present,
 			source => "puppet:///modules/skype/skype-debian_4.0.0.8-1_i386.deb";
 	}

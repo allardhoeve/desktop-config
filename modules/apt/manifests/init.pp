@@ -1,6 +1,9 @@
 
 
 class apt {
+	
+	include apt::alternatives
+
 	class {
 		"apt::config":
 			stage => "immediate";
