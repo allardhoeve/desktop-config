@@ -9,5 +9,11 @@ class environment {
 
 		['mysql-client']:
 			ensure => installed;
+
+		['quilt', 'build-essential', 'fakeroot']:
+			ensure => installed;
+
+		['git-buildpackage']:
+			ensure => installed;
 	}
 }		
