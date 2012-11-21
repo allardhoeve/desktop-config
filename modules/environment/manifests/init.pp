@@ -6,5 +6,8 @@ class environment {
 
 		['python-pip', 'python-virtualenv']:
 			ensure => installed;
+
+		['mysql-client']:
+			ensure => installed;
 	}
 }		
