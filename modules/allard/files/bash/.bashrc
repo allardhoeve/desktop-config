@@ -92,4 +92,6 @@ fi
 export QUILT_PATCHES=debian/patches
 export DEBMAIL=allard@byte.nl
 export EMAIL=allard@byte.nl
+export NAME="Allard Hoeve"
+export DEBFULLNAME="Allard Hoeve"
 
