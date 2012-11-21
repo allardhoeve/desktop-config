@@ -1,12 +1,5 @@
 
 class allard::vimrc {
-
-	File {
-		mode => 600,
-		owner => "allard",
-		group => "allard"
-	}
-
 	file {
 		"/home/allard/.vimrc":
 			ensure => present,
