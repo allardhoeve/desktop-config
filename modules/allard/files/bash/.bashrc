@@ -89,3 +89,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+export QUILT_PATCHES=debian/patches
+export DEBMAIL=allard@byte.nl
+export EMAIL=allard@byte.nl
+
